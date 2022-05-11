@@ -42,4 +42,15 @@ public class Imovel {
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
+
+    public String toString(){
+        String situacao;
+        if(!status) {
+           situacao = "Livre";
+        } else {
+            situacao = "Ocupado";
+        }
+
+        return "Status: " + situacao + "\nValor Aluguel: " + valorAluguel + "\nRegistro: " + registro + "\nEndereco: \n" + endereco;
+    }
 }

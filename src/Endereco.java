@@ -62,4 +62,13 @@ public class Endereco {
     public void setNumero(int numero) {
         this.numero = numero;
     }
+
+    public String toString(){
+        return "Logradouro: " + logradouro +
+                "\nNumero: " + numero +
+                "\nComplemento: " + complemento +
+                "\nBairro: " + bairro +
+                "\nCidade: " + cidade +
+                "\nCEP: " + cep;
+    }
 }

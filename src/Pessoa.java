@@ -42,4 +42,8 @@ public class Pessoa {
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
+
+    public String toString(){
+        return "Nome: " + nome + "\nRegistro: " + registro + "\nTelefone: " + telefone + "\nEndereço: \n" + endereco;
+    }
 }

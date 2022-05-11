@@ -54,4 +54,8 @@ public class Anuncio {
     public void setValor(double valor) {
         this.valor = valor;
     }
+
+    public String toString(){
+        return "Locatario: "+ locatario.toString() + "\nImovel:" + imovel.toString() + "\nCorretor" + corretor.toString() + "\nValor: " + valor + "\nData: " + data;
+    }
 }

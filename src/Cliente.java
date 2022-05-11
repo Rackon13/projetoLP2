@@ -13,4 +13,8 @@ public class Cliente extends Pessoa {
     public void setSeguroFianca(double seguroFianca) {
         this.seguroFianca = seguroFianca;
     }
+
+    public String toString(){
+        return super.toString() + "\nSeguro Fiança: " + seguroFianca;
+    }
 }

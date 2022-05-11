@@ -23,4 +23,8 @@ public class Corretor extends Pessoa{
     public void setTaxaCorretagem(double taxaCorretagem) {
         this.taxaCorretagem = taxaCorretagem;
     }
+
+    public String toString(){
+        return super.toString() + "\nCreci: " + creci + "\nTaxa Corretagem: " + taxaCorretagem;
+    }
 }
